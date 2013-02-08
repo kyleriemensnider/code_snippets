@@ -1,0 +1,4 @@
+UPDATE wp_posts SET guid = REPLACE(guid, "oldsite.com.stuff.com", "newsite.com");
+UPDATE wp_posts SET post_content = REPLACE(post_content, "oldsite.com.stuff.com", "newsite.com");
+UPDATE wp_postmeta SET meta_value = REPLACE(meta_value, "oldsite.com.stuff.com", "newsite.com");
+UPDATE wp_options SET option_value = REPLACE(option_value, "oldsite.com.stuff.com", "newsite.com");
